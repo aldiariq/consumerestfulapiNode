@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_autentikasi"
+    app:startDestination="@id/masukFragment">
+
+    <fragment
+        android:id="@+id/masukFragment"
+        android:name="com.aldiariq.restfulconsume.autentikasi.MasukFragment"
+        android:label="fragment_masuk"
+        tools:layout="@layout/fragment_masuk" />
+
+    <fragment
+        android:id="@+id/daftarFragment"
+        android:name="com.aldiariq.restfulconsume.autentikasi.DaftarFragment"
+        android:label="fragment_daftar"
+        tools:layout="@layout/fragment_daftar" />
+</navigation>
