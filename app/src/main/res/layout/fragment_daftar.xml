@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".autentikasi.DaftarFragment">
+    tools:context=".ui.autentikasi.DaftarFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -24,6 +24,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/etemailDaftar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
@@ -33,6 +34,7 @@
         </EditText>
 
         <EditText
+            android:id="@+id/etnamaDaftar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nama"
@@ -42,6 +44,7 @@
         </EditText>
 
         <EditText
+            android:id="@+id/etpasswordDaftar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
@@ -52,6 +55,7 @@
         </EditText>
 
         <Button
+            android:id="@+id/btndaftarDaftar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@android:color/darker_gray"
@@ -63,6 +67,7 @@
         </Button>
 
         <TextView
+            android:id="@+id/txtmasukDaftar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sudah punya akun? ketuk disini"

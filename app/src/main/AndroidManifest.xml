@@ -11,8 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RestfulConsume"
-        android:usesCleartextTraffic="true">
-        <activity android:name=".autentikasi.AutentikasiActivity"></activity>
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_config_file">
+        <activity android:name="com.aldiariq.restfulconsume.ui.autentikasi.AutentikasiActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

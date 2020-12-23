@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/masukFragment"
-        android:name="com.aldiariq.restfulconsume.autentikasi.MasukFragment"
+        android:name="com.aldiariq.restfulconsume.ui.autentikasi.MasukFragment"
         android:label="fragment_masuk"
         tools:layout="@layout/fragment_masuk" />
 
     <fragment
         android:id="@+id/daftarFragment"
-        android:name="com.aldiariq.restfulconsume.autentikasi.DaftarFragment"
+        android:name="com.aldiariq.restfulconsume.ui.autentikasi.DaftarFragment"
         android:label="fragment_daftar"
         tools:layout="@layout/fragment_daftar" />
 </navigation>

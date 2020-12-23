@@ -3,7 +3,7 @@ package com.aldiariq.restfulconsume
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.aldiariq.restfulconsume.autentikasi.AutentikasiActivity
+import com.aldiariq.restfulconsume.ui.autentikasi.AutentikasiActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

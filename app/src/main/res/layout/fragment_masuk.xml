@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".autentikasi.MasukFragment">
+    tools:context=".ui.autentikasi.MasukFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -24,6 +24,7 @@
         </TextView>
 
         <EditText
+            android:id="@+id/etemailMasuk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
@@ -33,6 +34,7 @@
         </EditText>
 
         <EditText
+            android:id="@+id/etpasswordMasuk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
@@ -43,6 +45,7 @@
         </EditText>
 
         <Button
+            android:id="@+id/btnmasukMasuk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@android:color/darker_gray"
@@ -54,6 +57,7 @@
         </Button>
 
         <TextView
+            android:id="@+id/txtdaftarMasuk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Belum punya akun? ketuk disini"

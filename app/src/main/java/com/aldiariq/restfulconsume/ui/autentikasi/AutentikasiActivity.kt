@@ -1,4 +1,4 @@
-package com.aldiariq.restfulconsume.autentikasi
+package com.aldiariq.restfulconsume.ui.autentikasi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
